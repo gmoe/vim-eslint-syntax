@@ -12,6 +12,21 @@ If you're looking for a plugin that gives you line-by-line linter output you
 will probably prefer something like [ale][] or [Syntastic][]. This also
 requires a bit of familiarity with Vim and manual configuration to get working.
 
+## Installation
+
+If you're unfamiliar with vim, consider using something like [vim-plug][] to
+maintain your plugins:
+
+1. Add the following to your `.vimrc`:
+```vim
+Plug 'tidalcycles/vim-tidal'
+```
+2. Restart vim and execute `:PlugInstall` to automatically download and install
+   this plugin.
+
+Or consider using Vim 8's [native plugin manager][vim8] and clone this repo
+into your bundle.
+
 ## Usage
 
 My `.vimrc` has a key binding to pipe the output of [ESLint][] into a buffer
@@ -64,6 +79,8 @@ to reflect the linter being used.
 [ESLint]: https://eslint.org
 [ale]: https://github.com/dense-analysis/ale
 [Syntastic]: https://github.com/vim-syntastic/syntastic
+[vim-plug]: https://vimhelp.org/repeat.txt.html#packages
+[vim8]: https://vimhelp.org/repeat.txt.html#packages
 [git hooks]: https://githooks.com/
 [my config]: https://github.com/gmoe/dotfiles/blob/master/.vimrc
 [autocommand]: https://learnvimscriptthehardway.stevelosh.com/chapters/12.html
