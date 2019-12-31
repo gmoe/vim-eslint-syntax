@@ -3,7 +3,7 @@
 This is a Vim syntax-highlighter for [ESLint][] logging output, definitely a
 weird niche right?
 
-I'm not a huge fan of the asychronous linters, instead I rely on [git hooks][]
+I'm not a huge fan of the asynchronous linters, instead I rely on [git hooks][]
 and get in-editor feedback with a key binding that opens a split with ESLint
 output for the current buffer. If that sounds like an appealing alternative
 then you're the target audience for this plugin!
@@ -49,8 +49,8 @@ endfunction
 ```
 
 If you want more hints on how to integrate other linters or how this setup
-works, check out [my config][]. Note that this plugin does not automically set
-the file type of the buffer so it can play nicely with other future linter
+works, check out [my config][]. Note that this plugin does not automatically
+set the file type of the buffer so it can play nicely with other future linter
 highlighters. You'll have to set it manually similar to the snippet above (`let
 &filetype = linterBuffType`) or set it with an [autocommand][] like below:
 
