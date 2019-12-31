@@ -66,10 +66,11 @@ endfunction
 ```
 
 If you want more hints on how to integrate other linters or how this setup
-works, check out [my config][]. Note that this plugin does not automatically
-set the file type of the buffer so it can play nicely with other future linter
-highlighters. You'll have to set it manually similar to the snippet above (`let
-&filetype = linterBuffType`) or set it with an [autocommand][] like below:
+works check out [my config][], which also includes a method for automatically
+fixing files. Note that this plugin does not automatically set the file type of
+the buffer so it can play nicely with other future linter highlighters. You'll
+have to set it manually similar to the snippet above (`let &filetype =
+linterBuffType`) or set it with an [autocommand][] like below:
 
 ```vim
 au! BufRead,BufNewFile __Linter_Results__ setfiletype eslint
@@ -84,5 +85,5 @@ to reflect the linter being used.
 [vim-plug]: https://vimhelp.org/repeat.txt.html#packages
 [vim8]: https://vimhelp.org/repeat.txt.html#packages
 [git hooks]: https://githooks.com/
-[my config]: https://github.com/gmoe/dotfiles/blob/master/.vimrc
+[my config]: https://github.com/gmoe/dotfiles/blob/master/.vimrc#L130-L191
 [autocommand]: https://learnvimscriptthehardway.stevelosh.com/chapters/12.html
