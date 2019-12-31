@@ -12,6 +12,8 @@ If you're looking for a plugin that gives you line-by-line linter output you
 will probably prefer something like [ale][] or [Syntastic][]. This also
 requires a bit of familiarity with Vim and manual configuration to get working.
 
+<img width="724" alt="Screen Shot 2019-12-31 at 9 59 01 AM" src="https://user-images.githubusercontent.com/7128551/71626710-36b28c00-2bb4-11ea-8014-67a599879a6e.png">
+
 ## Installation
 
 If you're unfamiliar with vim, consider using something like [vim-plug][] to
