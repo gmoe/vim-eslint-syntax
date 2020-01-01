@@ -19,9 +19,9 @@ syn match eslRuleName "[a-z/\-1-9]\+$"
 
 syn match eslLineNumber "\(\d\+\):\(\d\+\)"
 
-syn region eslFileName start="^/" end="\.jsx\?$" contains=fstOperator keepend extend
+syn region eslFileName start="^/" end="\.jsx\?$" keepend extend
 
-syn region eslCode start=+`+ end=+`+ fold keepend
+syn region eslCode start=+`+ end=+`+ keepend
 
 let b:current_syntax = "eslint"
 
