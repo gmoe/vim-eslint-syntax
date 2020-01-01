@@ -85,5 +85,5 @@ to reflect the linter being used.
 [vim-plug]: https://vimhelp.org/repeat.txt.html#packages
 [vim8]: https://vimhelp.org/repeat.txt.html#packages
 [git hooks]: https://githooks.com/
-[my config]: https://github.com/gmoe/dotfiles/blob/master/.vimrc#L130-L191
+[my config]: https://github.com/gmoe/dotfiles/blob/e751c0d1d11cda5b2c6c5913a26897b5abef15ca/.vimrc#L130-L191
 [autocommand]: https://learnvimscriptthehardway.stevelosh.com/chapters/12.html
