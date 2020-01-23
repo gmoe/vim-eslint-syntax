@@ -21,7 +21,7 @@ maintain your plugins:
 
 1. Add the following to your `.vimrc`:
 ```vim
-Plug 'tidalcycles/vim-tidal'
+Plug 'gmoe/vim-eslint-syntax'
 ```
 2. Restart vim and execute `:PlugInstall` to automatically download and install
    this plugin.
