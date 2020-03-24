@@ -15,7 +15,7 @@ syn match eslError "\d\+ errors\?"
 syn keyword eslWarning warning
 syn match eslWarning "\d\+ warnings\?"
 
-syn match eslRuleName "[a-z/\-1-9]\+$"
+syn match eslRuleName "\b[A-Za-z/\-1-9]\+$"
 
 syn match eslLineNumber "\(\d\+\):\(\d\+\)"
 
